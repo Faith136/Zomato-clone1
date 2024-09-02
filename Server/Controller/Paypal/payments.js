@@ -4,8 +4,8 @@ const app = require("express").Router();
 // Configure PayPal SDK
 paypal.configure({
     mode: 'sandbox', //sandbox or live
-    client_id: process.env.PAYPAL_CLIENT_ID,
-    client_secret:process.env.PAYPAL_CLIENT_SECRET
+    client_id: "AQxzOqRwh19ygloE91zA5zemngljBDfzI0p2QINYTId4oGtDa8mV9GWXhr4W6nVgqKrodLkW55laIuS2",
+    client_secret: "EDptT40CGNy7SlI7RZg7PQjCXto9drJU1Wwb4k7Ap1BeKmLRFaUH9caVcuRJ7yc11WBTgEXwKhnbxLgp"
 });
 console.log(process.env.WEATHER_API_KEY);
 
